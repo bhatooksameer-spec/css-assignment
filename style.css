@@ -1,3 +1,4 @@
+
 *{
     margin: 0%;
     padding: 0%;
@@ -15,6 +16,7 @@
     font-family:'Times New Roman', Times, serif  ;
     position: fixed;
     /* margin-top: 1%; */
+    /* padding: 10PX; */
 }
 .aa{
     margin-left: 40%;
@@ -71,3 +73,38 @@ a{
     border-radius: 7px;
     margin-top: 10px;
 }
+.about{
+    display: flex;
+    /* width: 100%; */
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 20px;
+    
+}
+/* ////////// */
+.social-list {
+    width: 150px;
+    font-family: Arial, sans-serif;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.item span {
+    color: white;
+    font-size: 16px;
+}
+
